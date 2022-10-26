@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!--  Thymeleafを使用することを宣言する -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Hello Thymeleaf</title>
+</head>
+<body>
+	<h1 th:text="${#dates.createNow()}"></h1>
+	<h1 th:text="|こんにちは${msg}さん|">だみー</h1>
+</body>
+</html>
