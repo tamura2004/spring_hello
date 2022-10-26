@@ -1,4 +1,4 @@
-package main.java.name.ogisui.web.config;
+package name.ogisui.web.config;
 
 import java.nio.charset.StandardCharsets;
 

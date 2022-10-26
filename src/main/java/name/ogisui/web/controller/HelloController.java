@@ -1,11 +1,11 @@
-package main.java.name.ogisui.web.controller;
+package name.ogisui.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/hello-0.1/hello")
+@RequestMapping("/hello")
 public class HelloController {
 
   @GetMapping("/index")
